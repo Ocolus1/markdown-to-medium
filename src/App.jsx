@@ -15,6 +15,9 @@ function App() {
 
   return (
     <div className="app-container">
+      <div className="up_div1">
+        <h2>Markdown to medium</h2>
+      </div>
       <Editor markdown={markdown} setMarkdown={setMarkdown} />
       <Preview markdown={markdown} />
       <div className="up_div">
